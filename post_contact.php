@@ -16,7 +16,7 @@ if(!array_key_exists('mail', $_POST) || $_POST['mail'] == '' || !filter_var($_PO
 if(!array_key_exists('message', $_POST) || $_POST['message'] == '') {
     $errors['message'] = "Vous n'avez pas renseigné votre message";
 }
-if(!array_key_exists('contact', $_POST) || !isset($emails[$_POST['contact']])) {
+if(!array_key_exists('contact', $_POST) {
     $errors['contact'] = "Le destinataire que vous demandez n'existe pas";
 }
 

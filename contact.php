@@ -41,7 +41,7 @@
                     <a href="formations.html">Formations</a>
                 </li>
                 <li class="nav-item">
-                    <a href="contact.html">Contact</a>
+                    <a href="contact.php">Contact</a>
                 </li>
             </ul>
 
@@ -117,8 +117,6 @@
 
         </form>
 
-        <h2>Débug</h2>
-        <?= var_dump($_SESSION); ?>
 
     </div>
 <footer class="pt-4 border-top">
